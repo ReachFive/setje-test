@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app 
-        image: europe-docker.pkg.dev/infra-281813/reachfive/app:placeholder
+        image: europe-docker.pkg.dev/infra-281813/reachfive/app
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
