@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - name: nginx 
+      - name: app 
         image: europe-docker.pkg.dev/infra-281813/reachfive/app:placeholder
         volumeMounts:
         - name: content
